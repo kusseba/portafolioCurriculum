@@ -1,0 +1,110 @@
+/*Barra de Navegacion*/
+
+.navbar {
+    padding: 2rem;
+    background-color: rgb(195, 195, 245);
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.seccion-oscura {
+    color: aliceblue;
+    background-color: black;
+}
+
+.seccion-titulo {
+    font-size: 2rem;
+    padding: 15px;
+    font-family: 'Playfair Display', serif;
+}
+
+.seccion-texto {
+    font-size: 1.2rem;
+
+}
+
+.seccion-clara {
+    color: black;
+    background-color: white;
+}
+
+/*Estilos generales*/
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Playfair Display', serif;
+
+}
+
+/*Sección sobre mi*/
+
+.sobre mi {
+    height: 500px;
+    padding: 10px;
+}
+
+.sobre mi .contenedor {
+    max-width: 600px;
+    text-align: center;
+}
+
+
+/*Sección Hero*/
+
+.hero {
+    background-color:  rgb(195, 195, 245);
+    min-height: 450px;
+    text-align: center;
+}
+
+.hero-principal {
+    padding: 3rem;
+}
+
+.hero-imagen-desarrollador {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    
+}
+
+.hero-principal h2 {
+    font-size: 1.5rem;
+    color: grey;
+}
+
+/*Seccion de Experiencia*/
+.experiencia {
+    padding: 40px;
+
+}
+
+.experiencia .row div {
+    height: 250px;
+    background-color: violet;
+    border: 3px solid orangered;
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .hero-inferior-imagen {
+        max-width: 500px;
+    }
+}
